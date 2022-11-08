@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APIDemo</name>
+    </assembly>
+    <members>
+        <member name="M:APIDemo.Controllers.UsersController.Get">
+            <summary>
+            Test to see if this gets put inside Open API
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:APIDemo.Controllers.UsersController.Get(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APIDemo</name>
+    </assembly>
+    <members>
+        <member name="M:APIDemo.Controllers.UsersController.Get">
+             <summary>
+             Returns a collection of URLs
+             </summary>
+             <param name="slugs">list of slugs to retrieve</param>
+             <remarks>
+             Sample request:
+            
+                 Get /api/slugscollection/(d25tRx, fN5jpz)
+            
+             </remarks>
+             <returns>IEnumerable of slugs</returns>
+             <response code="200">If all requested items are 
+             found</response>
+             <response code="400">If slugs parameter is missing</response>
+             <response code="404">If number of records found doesn't equal 
+             number of records requested</response>
+        </member>
+        <member name="M:APIDemo.Controllers.UsersController.Get(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
